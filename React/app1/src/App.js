@@ -1,10 +1,10 @@
 import React from "react";
-import RefsFunc from "./refs-func.js";
-
+import RefsArray from "./refs-array.js";
 function App() {
 	return (
 	<>
-	<RefsFunc/>
+	
+	<RefsArray/>
 	</>
 	
 	)
