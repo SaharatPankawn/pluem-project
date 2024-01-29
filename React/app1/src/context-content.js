@@ -1,8 +1,8 @@
-import React , {useContext}from "react";
+import React from "react";
 import { userContext } from "./context";
 
 export default function Content() {
-  let use = useContext(userContext);
+  let user = React.useContext(userContext);
 
   const contentStyle = {
     backgroundColor: "#ddd",
@@ -10,9 +10,10 @@ export default function Content() {
     margin: 10,
     padding: 10,
   };
+  
   return (
     <div style={contentStyle}>
-      Hello {use}
+      Hello {user}
     </div>
   );
 }
