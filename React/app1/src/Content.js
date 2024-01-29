@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Contrnt(){
+export function Content(){
     return (
         <div style={{textAlign:'center'}}>
             <h2> Hello <br/> React & React Native </h2>
