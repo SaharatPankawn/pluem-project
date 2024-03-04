@@ -5,8 +5,9 @@ import Fromsearch from "./from-search";
 import FromBootstrap from "./from-bootstrap";
 import FormText from "./form-text";
 import FormCheck from "./form-check";
+import FormValidation from "./form-validation";
 
 
 export default function App() {
-  return <FormCheck/>
+  return <FormValidation/>
 }
